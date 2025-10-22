@@ -52,6 +52,8 @@ const (
 	certificateCaUpdDeploy string = "certificate_ca_upd_deploy"
 	certificateWebServer   string = "certificate_web_server"
 	certificateCaCasSmtp   string = "certificate_ca_cas_smtp"
+	onlineUpdate           string = "online_update"
+	checkonlineUpdate      string = "check_online_update"
 )
 
 const (

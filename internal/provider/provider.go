@@ -132,6 +132,7 @@ func (p *IrmcProvider) Resources(ctx context.Context) []func() resource.Resource
 		NewIrmcCertificateCaUpdDeployResource,
 		NewIrmcCertificateWebServerResource,
 		NewIrmcCertificateCaCasSmtpResource,
+		NewOnlineUpdateResource,
 	}
 }
 
@@ -143,6 +144,7 @@ func (p *IrmcProvider) DataSources(ctx context.Context) []func() datasource.Data
 		NewStorageDataSource,
 		NewSystemBootDataSource,
 		NewIrmcAttributesDataSource,
+		NewOnlineUpdateDataSource,
 	}
 }
 
