@@ -22,5 +22,5 @@ rack1 = {
     endpoint     = "https://255.255.255.250"
     ssl_insecure = true
   },
-  
+
 }

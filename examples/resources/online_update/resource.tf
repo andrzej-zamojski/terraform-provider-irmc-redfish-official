@@ -27,10 +27,10 @@ resource "irmc-redfish_online_update" "o_update" {
   // User can use whole designation string or use one of below components update types:
   // "Agent-Lx", "Agent-Win", "FibreChannelController", "LanController", 
   // "ManagementController", "PrimSupportPack-Win", "ScsiController", "Storage", "SystemBoard", "Others"
-  
+
   update_list = ["ManagementController/iRMC%20S6-RX2540M7-0666"]
-  
-  
+
+
   //execute_online_upd_operation_time = "Once"
   // execute_online_upd_schedule_time = "23:00 10.04.2026"  // Required if execute_online_upd_operation_time is "Once"
 }
